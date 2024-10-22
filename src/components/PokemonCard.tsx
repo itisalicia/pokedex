@@ -14,6 +14,11 @@ function PokemonCard({pokemon}) {
   );
 }
 
+interface PokemonProps {
+    name: string,
+    imgSrc?: string,
+}
+
 
 
 export default PokemonCard;
