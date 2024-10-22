@@ -14,7 +14,7 @@ function PokemonCard({pokemon}) {
   );
 }
 
-interface PokemonProps {
+interface pokemonProps {
     name: string,
     imgSrc?: string,
 }
