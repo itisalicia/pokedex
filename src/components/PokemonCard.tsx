@@ -1,4 +1,4 @@
-interface pokemonprops {
+interface pokemonProps {
   pokemon: {
     name: string;
     imgSrc?: string;
