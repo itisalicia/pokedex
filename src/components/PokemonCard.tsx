@@ -5,7 +5,7 @@ interface pokemonprops {
   };
 }
 
-function PokemonCard({pokemon}): pokemonProps {
+function PokemonCard({pokemon}: pokemonProps ){
   return (
     <figure>
       {pokemon.imgSrc ? (
