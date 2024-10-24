@@ -10,7 +10,6 @@ function PokemonCard({pokemon}: pokemonProps){
     <figure>
       {pokemon.imgSrc ? (
         <p>
-        {" "} 
           <img src={pokemon.imgSrc} alt="Bulbasaur" />
       </p>
       ) : (
